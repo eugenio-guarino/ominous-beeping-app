@@ -28,7 +28,7 @@ class BlinkingPointState extends State<BlinkingPoint>
   void initState() {
     super.initState();
     animationController = AnimationController(
-      duration: Duration(milliseconds: 1000),
+      duration: Duration(milliseconds: 500),
       vsync: this,
     );
 

@@ -18,7 +18,7 @@ class OminousBeepingApp extends StatelessWidget {
                 xCoor: 1.0, // The x coordinate of the point
                 yCoor: 1.0, // The y coordinate of the point
                 pointColor: Colors.red, // The color of the point
-                pointSize: 20.0, // The size of the point
+                pointSize: 40.0, // The size of the point
               ),
             ),
           ),
