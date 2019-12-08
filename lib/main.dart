@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(new HelloWorldApp());
+void main() => runApp(new OminousBeepingApp());
 
-class HelloWorldApp extends StatelessWidget {
+class OminousBeepingApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return new MaterialApp(
-      home: new Material(
-        child: new Center(
-          child: new Text("Hello world!"),
-        ),
+    return Container(
+      child: Align(
+        alignment: Alignment.bottomLeft,
+        child: Text('Hello!', textDirection: TextDirection.ltr,),
       ),
     );
   }
 }
+
